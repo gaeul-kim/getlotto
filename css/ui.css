@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+}
+
+A:link {
+    text-decoration: none;
+    color: black;
+}
+
+A:hover {
+    color: tomato;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main_container {
+    padding: 10px;
+    width: 350px;
+}
+
+.win_numbers {
+    text-align: center;
+}
+
+.number_container {
+    padding: 5px;
+    height: 65px;
+}
+
+.number {
+    margin: auto;
+}
+
+.number td {
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    border: 1px solid gray;
+    border-radius: 100%;
+}
+
+.button_container {
+    padding: 5px;
+    height: 45px;
+    text-align: center;
+}
+
+.button {
+    border-radius: 5px;
+    width: 75px;
+    height: 35px;
+    color: white;
+    background-color: #6b9ab8;
+    border: 1px solid #56819d;
+}
+
+select {
+    border-radius: 5px;
+    width: 75px;
+    height: 35px;
+    color: white;
+    background-color: #6b9ab8;
+    border: 1px solid #56819d;
+    text-align-last: center;
+}
+
+.option_container {
+    /*    height: 0px;*/
+    height: 165px;
+    display: none;
+    /*    transition: 0.5s;*/
+    overflow: hidden;
+}
+
+.option1 {
+    margin: 5px;
+}
+
+.option_number {
+    margin: auto;
+}
+
+.option_number td {
+    text-align: center;
+    width: 29px;
+    height: 29px;
+    border: 1px solid gray;
+    border-radius: 100%;
+}
+
+.number_checked {
+    background-color: lightgray;
+}
+
+.number_unchecked {
+    background-color: white;
+}
+
+.result_container {
+    height: 330px;
+    padding: 5px;
+    overflow-y: hidden;
+}
+
+.result {
+    background-color: aliceblue;
+    margin: auto;
+}
+
+.result td {
+    text-align: center;
+    width: 50px;
+    height: 30px;
+}
