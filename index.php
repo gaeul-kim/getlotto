@@ -11,11 +11,11 @@
 </head>
 
 <body>
-    <header>
-        <h1>Get Lotto!</h1> </header>
+<!--     <header>
+        <h1>Get Lotto!</h1> </header> -->
     <section class="main_container">
         <div style="text-align:center">
-            <? require("winnumbers.php"); ?>
+            <? require("win_numbers.php"); ?>
         </div>
         <div class="number_container">
             <table class="number">
@@ -107,7 +107,7 @@
             </div>
         </div>
     </section>
-    <footer> <a href="getlotto.woobi.co.kr">getlotto.woobi.co.kr</a> </footer>
+    <footer> <a href="http://getlotto.woobi.co.kr">getlotto</a> </footer>
     <script src="js/getlotto.js"></script>
 </body>
 
